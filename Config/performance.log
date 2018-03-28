@@ -1,76 +1,780 @@
-2018-03-27 23:11:27,408 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
-2018-03-27 23:11:27,420 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
-2018-03-27 23:11:27,422 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:19033][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
-2018-03-27 23:11:27,439 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:19033][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
-2018-03-27 23:11:27,442 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:19033
-2018-03-27 23:11:27,444 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:19033
-2018-03-27 23:11:27,445 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connection established 127.0.0.1:51557<->127.0.0.1:19033
-2018-03-27 23:11:27,446 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session HTTP/1.1
-2018-03-27 23:11:27,446 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
-2018-03-27 23:11:27,446 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
-2018-03-27 23:11:27,448 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session HTTP/1.1
-2018-03-27 23:11:27,448 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
-2018-03-27 23:11:27,448 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 868
-2018-03-27 23:11:27,448 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:19033
-2018-03-27 23:11:27,448 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
-2018-03-27 23:11:27,448 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.6 (java 1.5)
-2018-03-27 23:11:27,448 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
-2018-03-27 23:11:27,448 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
-2018-03-27 23:11:27,448 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
-2018-03-27 23:11:27,448 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 868[\r][\n]"
-2018-03-27 23:11:27,448 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:19033[\r][\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.6 (java 1.5)[\r][\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{[\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "browserName": "chrome",[\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "chromeOptions": {[\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "args": [[\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "--disable-infobars"[\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      ],[\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "extensions": [],[\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "prefs": {[\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "download.default_directory": "/Users/dipika.das/Documents/Test022/DownloadedFiles"[\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      }[\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    },[\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "version": "",[\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "platform": "ANY"[\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  },[\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  "capabilities": {[\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "browserName": "chrome",[\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "chromeOptions": {[\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "args": [[\n]"
-2018-03-27 23:11:27,449 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "          "--disable-infobars"[\n]"
-2018-03-27 23:11:27,450 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        ],[\n]"
-2018-03-27 23:11:27,450 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "extensions": [],[\n]"
-2018-03-27 23:11:27,450 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "prefs": {[\n]"
-2018-03-27 23:11:27,450 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "          "download.default_directory": "/Users/dipika.das/Documents/Test022/DownloadedFiles"[\n]"
-2018-03-27 23:11:27,450 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        }[\n]"
-2018-03-27 23:11:27,450 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      },[\n]"
-2018-03-27 23:11:27,450 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "version": "",[\n]"
-2018-03-27 23:11:27,450 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "platform": "ANY"[\n]"
-2018-03-27 23:11:27,450 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    },[\n]"
-2018-03-27 23:11:27,450 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
-2018-03-27 23:11:27,450 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
-2018-03-27 23:11:27,450 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "firstMatch": [[\n]"
-2018-03-27 23:11:27,450 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      {[\n]"
-2018-03-27 23:11:27,450 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "browserName": "chrome"[\n]"
-2018-03-27 23:11:27,450 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      }[\n]"
-2018-03-27 23:11:27,450 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    ][\n]"
-2018-03-27 23:11:27,450 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  }[\n]"
-2018-03-27 23:11:27,450 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "}"
-2018-03-27 23:11:28,376 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
-2018-03-27 23:11:28,376 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:270[\r][\n]"
-2018-03-27 23:11:28,376 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
-2018-03-27 23:11:28,376 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
-2018-03-27 23:11:28,376 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"sessionId":"bfdec3e5ab2874bf20f81775a654f392","status":33,"value":{"message":"session not created exception: Chrome version must be >= 64.0.3282.0\n  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.10.5 x86_64)"}}"
-2018-03-27 23:11:28,383 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
-2018-03-27 23:11:28,383 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:270
-2018-03-27 23:11:28,383 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
-2018-03-27 23:11:28,391 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection can be kept alive indefinitely
-2018-03-27 23:11:28,402 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection [id: 0][route: {}->http://localhost:19033] can be kept alive indefinitely
-2018-03-27 23:11:28,402 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:19033][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:26,305 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:26,338 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:26,340 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:26,397 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 0][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:26,400 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:26,402 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:26,405 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connection established 127.0.0.1:53584<->127.0.0.1:20472
+2018-03-28 10:32:26,405 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session HTTP/1.1
+2018-03-28 10:32:26,405 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2018-03-28 10:32:26,406 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2018-03-28 10:32:26,409 - org.apache.http.headers -DEBUG - http-outgoing-0 >> POST /session HTTP/1.1
+2018-03-28 10:32:26,411 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-03-28 10:32:26,411 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Content-Length: 906
+2018-03-28 10:32:26,411 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Host: localhost:20472
+2018-03-28 10:32:26,411 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2018-03-28 10:32:26,411 - org.apache.http.headers -DEBUG - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.6 (java 1.5)
+2018-03-28 10:32:26,411 - org.apache.http.headers -DEBUG - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-03-28 10:32:26,413 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2018-03-28 10:32:26,413 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-03-28 10:32:26,413 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Content-Length: 906[\r][\n]"
+2018-03-28 10:32:26,413 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Host: localhost:20472[\r][\n]"
+2018-03-28 10:32:26,413 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-03-28 10:32:26,413 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.6 (java 1.5)[\r][\n]"
+2018-03-28 10:32:26,414 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-03-28 10:32:26,414 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "[\r][\n]"
+2018-03-28 10:32:26,414 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "{[\n]"
+2018-03-28 10:32:26,414 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+2018-03-28 10:32:26,414 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+2018-03-28 10:32:26,414 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "chromeOptions": {[\n]"
+2018-03-28 10:32:26,414 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "args": [[\n]"
+2018-03-28 10:32:26,414 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "--disable-infobars"[\n]"
+2018-03-28 10:32:26,414 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      ],[\n]"
+2018-03-28 10:32:26,414 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "extensions": [],[\n]"
+2018-03-28 10:32:26,414 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "prefs": {[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "download.default_directory": "/Users/dipika.das/Documents/Datageneration/Demo_Test01/DownloadedFiles"[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      }[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    },[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "version": "",[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "platform": "ANY"[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  },[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  "capabilities": {[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "chromeOptions": {[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "args": [[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "          "--disable-infobars"[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        ],[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "extensions": [],[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "prefs": {[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "          "download.default_directory": "/Users/dipika.das/Documents/Datageneration/Demo_Test01/DownloadedFiles"[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        }[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      },[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "version": "",[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      "platform": "ANY"[\n]"
+2018-03-28 10:32:26,415 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    },[\n]"
+2018-03-28 10:32:26,416 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+2018-03-28 10:32:26,416 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+2018-03-28 10:32:26,416 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2018-03-28 10:32:26,416 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      {[\n]"
+2018-03-28 10:32:26,416 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+2018-03-28 10:32:26,416 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "      }[\n]"
+2018-03-28 10:32:26,416 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "    ][\n]"
+2018-03-28 10:32:26,416 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "  }[\n]"
+2018-03-28 10:32:26,416 - org.apache.http.wire -DEBUG - http-outgoing-0 >> "}"
+2018-03-28 10:32:28,852 - org.apache.http.wire -DEBUG - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-03-28 10:32:28,852 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Length:795[\r][\n]"
+2018-03-28 10:32:28,853 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-03-28 10:32:28,853 - org.apache.http.wire -DEBUG - http-outgoing-0 << "Connection:close[\r][\n]"
+2018-03-28 10:32:28,853 - org.apache.http.wire -DEBUG - http-outgoing-0 << "[\r][\n]"
+2018-03-28 10:32:28,853 - org.apache.http.wire -DEBUG - http-outgoing-0 << "{"sessionId":"677052dd9379b1d824723c53b31cb6f0","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9)","userDataDir":"/var/folders/s_/68hhqs6d4zg8sp7hkg0rkbns58s222/T/.org.chromium.Chromium.deu8RI"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Mac OS X","rotatable":false,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"65.0.3325.181","webStorageEnabled":true}}"
+2018-03-28 10:32:28,859 - org.apache.http.headers -DEBUG - http-outgoing-0 << HTTP/1.1 200 OK
+2018-03-28 10:32:28,860 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Length:795
+2018-03-28 10:32:28,860 - org.apache.http.headers -DEBUG - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-03-28 10:32:28,860 - org.apache.http.headers -DEBUG - http-outgoing-0 << Connection:close
+2018-03-28 10:32:28,869 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: Shutdown connection
+2018-03-28 10:32:28,869 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:28,869 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-0: Close connection
+2018-03-28 10:32:28,869 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 0][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:28,991 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:28,992 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:28,992 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:28,993 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 1][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:28,994 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:28,994 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:29,006 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connection established 127.0.0.1:53640<->127.0.0.1:20472
+2018-03-28 10:32:29,007 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/677052dd9379b1d824723c53b31cb6f0/window/current/maximize HTTP/1.1
+2018-03-28 10:32:29,007 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2018-03-28 10:32:29,007 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2018-03-28 10:32:29,007 - org.apache.http.headers -DEBUG - http-outgoing-1 >> POST /session/677052dd9379b1d824723c53b31cb6f0/window/current/maximize HTTP/1.1
+2018-03-28 10:32:29,007 - org.apache.http.headers -DEBUG - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2018-03-28 10:32:29,007 - org.apache.http.headers -DEBUG - http-outgoing-1 >> Content-Length: 45
+2018-03-28 10:32:29,007 - org.apache.http.headers -DEBUG - http-outgoing-1 >> Host: localhost:20472
+2018-03-28 10:32:29,007 - org.apache.http.headers -DEBUG - http-outgoing-1 >> Connection: Keep-Alive
+2018-03-28 10:32:29,007 - org.apache.http.headers -DEBUG - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.3.6 (java 1.5)
+2018-03-28 10:32:29,007 - org.apache.http.headers -DEBUG - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2018-03-28 10:32:29,007 - org.apache.http.wire -DEBUG - http-outgoing-1 >> "POST /session/677052dd9379b1d824723c53b31cb6f0/window/current/maximize HTTP/1.1[\r][\n]"
+2018-03-28 10:32:29,007 - org.apache.http.wire -DEBUG - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-03-28 10:32:29,007 - org.apache.http.wire -DEBUG - http-outgoing-1 >> "Content-Length: 45[\r][\n]"
+2018-03-28 10:32:29,007 - org.apache.http.wire -DEBUG - http-outgoing-1 >> "Host: localhost:20472[\r][\n]"
+2018-03-28 10:32:29,007 - org.apache.http.wire -DEBUG - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2018-03-28 10:32:29,007 - org.apache.http.wire -DEBUG - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.3.6 (java 1.5)[\r][\n]"
+2018-03-28 10:32:29,007 - org.apache.http.wire -DEBUG - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-03-28 10:32:29,007 - org.apache.http.wire -DEBUG - http-outgoing-1 >> "[\r][\n]"
+2018-03-28 10:32:29,007 - org.apache.http.wire -DEBUG - http-outgoing-1 >> "{"windowHandle":"current","handle":"current"}"
+2018-03-28 10:32:39,093 - org.apache.http.wire -DEBUG - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2018-03-28 10:32:39,096 - org.apache.http.wire -DEBUG - http-outgoing-1 << "Content-Length:418[\r][\n]"
+2018-03-28 10:32:39,096 - org.apache.http.wire -DEBUG - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-03-28 10:32:39,096 - org.apache.http.wire -DEBUG - http-outgoing-1 << "Connection:close[\r][\n]"
+2018-03-28 10:32:39,096 - org.apache.http.wire -DEBUG - http-outgoing-1 << "[\r][\n]"
+2018-03-28 10:32:39,096 - org.apache.http.wire -DEBUG - http-outgoing-1 << "{"sessionId":"677052dd9379b1d824723c53b31cb6f0","status":13,"value":{"message":"unknown error: cannot get automation extension\nfrom unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html\n  (Session info: chrome=65.0.3325.181)\n  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.10.5 x86_64)"}}"
+2018-03-28 10:32:39,096 - org.apache.http.headers -DEBUG - http-outgoing-1 << HTTP/1.1 200 OK
+2018-03-28 10:32:39,096 - org.apache.http.headers -DEBUG - http-outgoing-1 << Content-Length:418
+2018-03-28 10:32:39,096 - org.apache.http.headers -DEBUG - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2018-03-28 10:32:39,096 - org.apache.http.headers -DEBUG - http-outgoing-1 << Connection:close
+2018-03-28 10:32:39,097 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-1: Shutdown connection
+2018-03-28 10:32:39,097 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:39,097 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-1: Close connection
+2018-03-28 10:32:39,097 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 1][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:39,137 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:39,137 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:39,137 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:39,137 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 2][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:39,137 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:39,137 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:39,138 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connection established 127.0.0.1:53649<->127.0.0.1:20472
+2018-03-28 10:32:39,138 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/677052dd9379b1d824723c53b31cb6f0/timeouts HTTP/1.1
+2018-03-28 10:32:39,138 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2018-03-28 10:32:39,138 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2018-03-28 10:32:39,138 - org.apache.http.headers -DEBUG - http-outgoing-2 >> POST /session/677052dd9379b1d824723c53b31cb6f0/timeouts HTTP/1.1
+2018-03-28 10:32:39,139 - org.apache.http.headers -DEBUG - http-outgoing-2 >> Content-Type: application/json; charset=utf-8
+2018-03-28 10:32:39,139 - org.apache.http.headers -DEBUG - http-outgoing-2 >> Content-Length: 31
+2018-03-28 10:32:39,139 - org.apache.http.headers -DEBUG - http-outgoing-2 >> Host: localhost:20472
+2018-03-28 10:32:39,139 - org.apache.http.headers -DEBUG - http-outgoing-2 >> Connection: Keep-Alive
+2018-03-28 10:32:39,139 - org.apache.http.headers -DEBUG - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.3.6 (java 1.5)
+2018-03-28 10:32:39,139 - org.apache.http.headers -DEBUG - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+2018-03-28 10:32:39,139 - org.apache.http.wire -DEBUG - http-outgoing-2 >> "POST /session/677052dd9379b1d824723c53b31cb6f0/timeouts HTTP/1.1[\r][\n]"
+2018-03-28 10:32:39,139 - org.apache.http.wire -DEBUG - http-outgoing-2 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-03-28 10:32:39,139 - org.apache.http.wire -DEBUG - http-outgoing-2 >> "Content-Length: 31[\r][\n]"
+2018-03-28 10:32:39,139 - org.apache.http.wire -DEBUG - http-outgoing-2 >> "Host: localhost:20472[\r][\n]"
+2018-03-28 10:32:39,139 - org.apache.http.wire -DEBUG - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+2018-03-28 10:32:39,139 - org.apache.http.wire -DEBUG - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.3.6 (java 1.5)[\r][\n]"
+2018-03-28 10:32:39,139 - org.apache.http.wire -DEBUG - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-03-28 10:32:39,139 - org.apache.http.wire -DEBUG - http-outgoing-2 >> "[\r][\n]"
+2018-03-28 10:32:39,139 - org.apache.http.wire -DEBUG - http-outgoing-2 >> "{"type":"page load","ms":20000}"
+2018-03-28 10:32:39,142 - org.apache.http.wire -DEBUG - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+2018-03-28 10:32:39,142 - org.apache.http.wire -DEBUG - http-outgoing-2 << "Content-Length:72[\r][\n]"
+2018-03-28 10:32:39,142 - org.apache.http.wire -DEBUG - http-outgoing-2 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-03-28 10:32:39,142 - org.apache.http.wire -DEBUG - http-outgoing-2 << "Connection:close[\r][\n]"
+2018-03-28 10:32:39,142 - org.apache.http.wire -DEBUG - http-outgoing-2 << "[\r][\n]"
+2018-03-28 10:32:39,142 - org.apache.http.wire -DEBUG - http-outgoing-2 << "{"sessionId":"677052dd9379b1d824723c53b31cb6f0","status":0,"value":null}"
+2018-03-28 10:32:39,142 - org.apache.http.headers -DEBUG - http-outgoing-2 << HTTP/1.1 200 OK
+2018-03-28 10:32:39,142 - org.apache.http.headers -DEBUG - http-outgoing-2 << Content-Length:72
+2018-03-28 10:32:39,142 - org.apache.http.headers -DEBUG - http-outgoing-2 << Content-Type:application/json; charset=utf-8
+2018-03-28 10:32:39,142 - org.apache.http.headers -DEBUG - http-outgoing-2 << Connection:close
+2018-03-28 10:32:39,143 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-2: Shutdown connection
+2018-03-28 10:32:39,143 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:39,143 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-2: Close connection
+2018-03-28 10:32:39,143 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 2][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:39,145 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:39,145 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:39,145 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:39,145 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 3][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:39,145 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:39,146 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:39,146 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connection established 127.0.0.1:53650<->127.0.0.1:20472
+2018-03-28 10:32:39,146 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/677052dd9379b1d824723c53b31cb6f0/timeouts HTTP/1.1
+2018-03-28 10:32:39,146 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2018-03-28 10:32:39,146 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2018-03-28 10:32:39,146 - org.apache.http.headers -DEBUG - http-outgoing-3 >> POST /session/677052dd9379b1d824723c53b31cb6f0/timeouts HTTP/1.1
+2018-03-28 10:32:39,147 - org.apache.http.headers -DEBUG - http-outgoing-3 >> Content-Type: application/json; charset=utf-8
+2018-03-28 10:32:39,147 - org.apache.http.headers -DEBUG - http-outgoing-3 >> Content-Length: 30
+2018-03-28 10:32:39,147 - org.apache.http.headers -DEBUG - http-outgoing-3 >> Host: localhost:20472
+2018-03-28 10:32:39,147 - org.apache.http.headers -DEBUG - http-outgoing-3 >> Connection: Keep-Alive
+2018-03-28 10:32:39,147 - org.apache.http.headers -DEBUG - http-outgoing-3 >> User-Agent: Apache-HttpClient/4.3.6 (java 1.5)
+2018-03-28 10:32:39,147 - org.apache.http.headers -DEBUG - http-outgoing-3 >> Accept-Encoding: gzip,deflate
+2018-03-28 10:32:39,147 - org.apache.http.wire -DEBUG - http-outgoing-3 >> "POST /session/677052dd9379b1d824723c53b31cb6f0/timeouts HTTP/1.1[\r][\n]"
+2018-03-28 10:32:39,147 - org.apache.http.wire -DEBUG - http-outgoing-3 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-03-28 10:32:39,147 - org.apache.http.wire -DEBUG - http-outgoing-3 >> "Content-Length: 30[\r][\n]"
+2018-03-28 10:32:39,147 - org.apache.http.wire -DEBUG - http-outgoing-3 >> "Host: localhost:20472[\r][\n]"
+2018-03-28 10:32:39,147 - org.apache.http.wire -DEBUG - http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+2018-03-28 10:32:39,147 - org.apache.http.wire -DEBUG - http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.3.6 (java 1.5)[\r][\n]"
+2018-03-28 10:32:39,147 - org.apache.http.wire -DEBUG - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-03-28 10:32:39,147 - org.apache.http.wire -DEBUG - http-outgoing-3 >> "[\r][\n]"
+2018-03-28 10:32:39,147 - org.apache.http.wire -DEBUG - http-outgoing-3 >> "{"type":"implicit","ms":20000}"
+2018-03-28 10:32:39,147 - org.apache.http.wire -DEBUG - http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+2018-03-28 10:32:39,147 - org.apache.http.wire -DEBUG - http-outgoing-3 << "Content-Length:72[\r][\n]"
+2018-03-28 10:32:39,147 - org.apache.http.wire -DEBUG - http-outgoing-3 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-03-28 10:32:39,147 - org.apache.http.wire -DEBUG - http-outgoing-3 << "Connection:close[\r][\n]"
+2018-03-28 10:32:39,147 - org.apache.http.wire -DEBUG - http-outgoing-3 << "[\r][\n]"
+2018-03-28 10:32:39,148 - org.apache.http.wire -DEBUG - http-outgoing-3 << "{"sessionId":"677052dd9379b1d824723c53b31cb6f0","status":0,"value":null}"
+2018-03-28 10:32:39,148 - org.apache.http.headers -DEBUG - http-outgoing-3 << HTTP/1.1 200 OK
+2018-03-28 10:32:39,148 - org.apache.http.headers -DEBUG - http-outgoing-3 << Content-Length:72
+2018-03-28 10:32:39,148 - org.apache.http.headers -DEBUG - http-outgoing-3 << Content-Type:application/json; charset=utf-8
+2018-03-28 10:32:39,148 - org.apache.http.headers -DEBUG - http-outgoing-3 << Connection:close
+2018-03-28 10:32:39,148 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-3: Shutdown connection
+2018-03-28 10:32:39,148 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:39,148 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-3: Close connection
+2018-03-28 10:32:39,148 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 3][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:39,150 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:39,150 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:39,150 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:39,150 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 4][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:39,150 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:39,151 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:39,151 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connection established 127.0.0.1:53651<->127.0.0.1:20472
+2018-03-28 10:32:39,151 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/677052dd9379b1d824723c53b31cb6f0/timeouts HTTP/1.1
+2018-03-28 10:32:39,151 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2018-03-28 10:32:39,151 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2018-03-28 10:32:39,151 - org.apache.http.headers -DEBUG - http-outgoing-4 >> POST /session/677052dd9379b1d824723c53b31cb6f0/timeouts HTTP/1.1
+2018-03-28 10:32:39,151 - org.apache.http.headers -DEBUG - http-outgoing-4 >> Content-Type: application/json; charset=utf-8
+2018-03-28 10:32:39,151 - org.apache.http.headers -DEBUG - http-outgoing-4 >> Content-Length: 31
+2018-03-28 10:32:39,151 - org.apache.http.headers -DEBUG - http-outgoing-4 >> Host: localhost:20472
+2018-03-28 10:32:39,151 - org.apache.http.headers -DEBUG - http-outgoing-4 >> Connection: Keep-Alive
+2018-03-28 10:32:39,151 - org.apache.http.headers -DEBUG - http-outgoing-4 >> User-Agent: Apache-HttpClient/4.3.6 (java 1.5)
+2018-03-28 10:32:39,151 - org.apache.http.headers -DEBUG - http-outgoing-4 >> Accept-Encoding: gzip,deflate
+2018-03-28 10:32:39,151 - org.apache.http.wire -DEBUG - http-outgoing-4 >> "POST /session/677052dd9379b1d824723c53b31cb6f0/timeouts HTTP/1.1[\r][\n]"
+2018-03-28 10:32:39,151 - org.apache.http.wire -DEBUG - http-outgoing-4 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-03-28 10:32:39,151 - org.apache.http.wire -DEBUG - http-outgoing-4 >> "Content-Length: 31[\r][\n]"
+2018-03-28 10:32:39,151 - org.apache.http.wire -DEBUG - http-outgoing-4 >> "Host: localhost:20472[\r][\n]"
+2018-03-28 10:32:39,151 - org.apache.http.wire -DEBUG - http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+2018-03-28 10:32:39,151 - org.apache.http.wire -DEBUG - http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.3.6 (java 1.5)[\r][\n]"
+2018-03-28 10:32:39,152 - org.apache.http.wire -DEBUG - http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-03-28 10:32:39,152 - org.apache.http.wire -DEBUG - http-outgoing-4 >> "[\r][\n]"
+2018-03-28 10:32:39,152 - org.apache.http.wire -DEBUG - http-outgoing-4 >> "{"type":"page load","ms":20000}"
+2018-03-28 10:32:39,152 - org.apache.http.wire -DEBUG - http-outgoing-4 << "HTTP/1.1 200 OK[\r][\n]"
+2018-03-28 10:32:39,152 - org.apache.http.wire -DEBUG - http-outgoing-4 << "Content-Length:72[\r][\n]"
+2018-03-28 10:32:39,152 - org.apache.http.wire -DEBUG - http-outgoing-4 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-03-28 10:32:39,152 - org.apache.http.wire -DEBUG - http-outgoing-4 << "Connection:close[\r][\n]"
+2018-03-28 10:32:39,152 - org.apache.http.wire -DEBUG - http-outgoing-4 << "[\r][\n]"
+2018-03-28 10:32:39,152 - org.apache.http.wire -DEBUG - http-outgoing-4 << "{"sessionId":"677052dd9379b1d824723c53b31cb6f0","status":0,"value":null}"
+2018-03-28 10:32:39,152 - org.apache.http.headers -DEBUG - http-outgoing-4 << HTTP/1.1 200 OK
+2018-03-28 10:32:39,152 - org.apache.http.headers -DEBUG - http-outgoing-4 << Content-Length:72
+2018-03-28 10:32:39,152 - org.apache.http.headers -DEBUG - http-outgoing-4 << Content-Type:application/json; charset=utf-8
+2018-03-28 10:32:39,153 - org.apache.http.headers -DEBUG - http-outgoing-4 << Connection:close
+2018-03-28 10:32:39,153 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-4: Shutdown connection
+2018-03-28 10:32:39,153 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:39,153 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-4: Close connection
+2018-03-28 10:32:39,153 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 4][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:39,379 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:39,380 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:39,380 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:39,380 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 5][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:39,380 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:39,381 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:39,381 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connection established 127.0.0.1:53654<->127.0.0.1:20472
+2018-03-28 10:32:39,381 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/677052dd9379b1d824723c53b31cb6f0/url HTTP/1.1
+2018-03-28 10:32:39,381 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2018-03-28 10:32:39,382 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2018-03-28 10:32:39,382 - org.apache.http.headers -DEBUG - http-outgoing-5 >> POST /session/677052dd9379b1d824723c53b31cb6f0/url HTTP/1.1
+2018-03-28 10:32:39,382 - org.apache.http.headers -DEBUG - http-outgoing-5 >> Content-Type: application/json; charset=utf-8
+2018-03-28 10:32:39,382 - org.apache.http.headers -DEBUG - http-outgoing-5 >> Content-Length: 45
+2018-03-28 10:32:39,382 - org.apache.http.headers -DEBUG - http-outgoing-5 >> Host: localhost:20472
+2018-03-28 10:32:39,382 - org.apache.http.headers -DEBUG - http-outgoing-5 >> Connection: Keep-Alive
+2018-03-28 10:32:39,382 - org.apache.http.headers -DEBUG - http-outgoing-5 >> User-Agent: Apache-HttpClient/4.3.6 (java 1.5)
+2018-03-28 10:32:39,382 - org.apache.http.headers -DEBUG - http-outgoing-5 >> Accept-Encoding: gzip,deflate
+2018-03-28 10:32:39,382 - org.apache.http.wire -DEBUG - http-outgoing-5 >> "POST /session/677052dd9379b1d824723c53b31cb6f0/url HTTP/1.1[\r][\n]"
+2018-03-28 10:32:39,382 - org.apache.http.wire -DEBUG - http-outgoing-5 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-03-28 10:32:39,382 - org.apache.http.wire -DEBUG - http-outgoing-5 >> "Content-Length: 45[\r][\n]"
+2018-03-28 10:32:39,382 - org.apache.http.wire -DEBUG - http-outgoing-5 >> "Host: localhost:20472[\r][\n]"
+2018-03-28 10:32:39,383 - org.apache.http.wire -DEBUG - http-outgoing-5 >> "Connection: Keep-Alive[\r][\n]"
+2018-03-28 10:32:39,383 - org.apache.http.wire -DEBUG - http-outgoing-5 >> "User-Agent: Apache-HttpClient/4.3.6 (java 1.5)[\r][\n]"
+2018-03-28 10:32:39,383 - org.apache.http.wire -DEBUG - http-outgoing-5 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-03-28 10:32:39,383 - org.apache.http.wire -DEBUG - http-outgoing-5 >> "[\r][\n]"
+2018-03-28 10:32:39,383 - org.apache.http.wire -DEBUG - http-outgoing-5 >> "{"url":"http://10.90.101.183:8080/login.htm"}"
+2018-03-28 10:32:40,687 - org.apache.http.wire -DEBUG - http-outgoing-5 << "HTTP/1.1 200 OK[\r][\n]"
+2018-03-28 10:32:40,687 - org.apache.http.wire -DEBUG - http-outgoing-5 << "Content-Length:72[\r][\n]"
+2018-03-28 10:32:40,687 - org.apache.http.wire -DEBUG - http-outgoing-5 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-03-28 10:32:40,687 - org.apache.http.wire -DEBUG - http-outgoing-5 << "Connection:close[\r][\n]"
+2018-03-28 10:32:40,687 - org.apache.http.wire -DEBUG - http-outgoing-5 << "[\r][\n]"
+2018-03-28 10:32:40,687 - org.apache.http.wire -DEBUG - http-outgoing-5 << "{"sessionId":"677052dd9379b1d824723c53b31cb6f0","status":0,"value":null}"
+2018-03-28 10:32:40,687 - org.apache.http.headers -DEBUG - http-outgoing-5 << HTTP/1.1 200 OK
+2018-03-28 10:32:40,687 - org.apache.http.headers -DEBUG - http-outgoing-5 << Content-Length:72
+2018-03-28 10:32:40,687 - org.apache.http.headers -DEBUG - http-outgoing-5 << Content-Type:application/json; charset=utf-8
+2018-03-28 10:32:40,688 - org.apache.http.headers -DEBUG - http-outgoing-5 << Connection:close
+2018-03-28 10:32:40,688 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-5: Shutdown connection
+2018-03-28 10:32:40,688 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:40,688 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-5: Close connection
+2018-03-28 10:32:40,688 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 5][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:40,691 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:40,691 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:40,692 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:40,692 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 6][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:40,692 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:40,692 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:40,693 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connection established 127.0.0.1:53664<->127.0.0.1:20472
+2018-03-28 10:32:40,693 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/677052dd9379b1d824723c53b31cb6f0/element HTTP/1.1
+2018-03-28 10:32:40,693 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2018-03-28 10:32:40,693 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2018-03-28 10:32:40,693 - org.apache.http.headers -DEBUG - http-outgoing-6 >> POST /session/677052dd9379b1d824723c53b31cb6f0/element HTTP/1.1
+2018-03-28 10:32:40,693 - org.apache.http.headers -DEBUG - http-outgoing-6 >> Content-Type: application/json; charset=utf-8
+2018-03-28 10:32:40,693 - org.apache.http.headers -DEBUG - http-outgoing-6 >> Content-Length: 33
+2018-03-28 10:32:40,694 - org.apache.http.headers -DEBUG - http-outgoing-6 >> Host: localhost:20472
+2018-03-28 10:32:40,694 - org.apache.http.headers -DEBUG - http-outgoing-6 >> Connection: Keep-Alive
+2018-03-28 10:32:40,694 - org.apache.http.headers -DEBUG - http-outgoing-6 >> User-Agent: Apache-HttpClient/4.3.6 (java 1.5)
+2018-03-28 10:32:40,694 - org.apache.http.headers -DEBUG - http-outgoing-6 >> Accept-Encoding: gzip,deflate
+2018-03-28 10:32:40,694 - org.apache.http.wire -DEBUG - http-outgoing-6 >> "POST /session/677052dd9379b1d824723c53b31cb6f0/element HTTP/1.1[\r][\n]"
+2018-03-28 10:32:40,694 - org.apache.http.wire -DEBUG - http-outgoing-6 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-03-28 10:32:40,694 - org.apache.http.wire -DEBUG - http-outgoing-6 >> "Content-Length: 33[\r][\n]"
+2018-03-28 10:32:40,694 - org.apache.http.wire -DEBUG - http-outgoing-6 >> "Host: localhost:20472[\r][\n]"
+2018-03-28 10:32:40,694 - org.apache.http.wire -DEBUG - http-outgoing-6 >> "Connection: Keep-Alive[\r][\n]"
+2018-03-28 10:32:40,694 - org.apache.http.wire -DEBUG - http-outgoing-6 >> "User-Agent: Apache-HttpClient/4.3.6 (java 1.5)[\r][\n]"
+2018-03-28 10:32:40,694 - org.apache.http.wire -DEBUG - http-outgoing-6 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-03-28 10:32:40,694 - org.apache.http.wire -DEBUG - http-outgoing-6 >> "[\r][\n]"
+2018-03-28 10:32:40,694 - org.apache.http.wire -DEBUG - http-outgoing-6 >> "{"using":"id","value":"username"}"
+2018-03-28 10:32:41,182 - org.apache.http.wire -DEBUG - http-outgoing-6 << "HTTP/1.1 200 OK[\r][\n]"
+2018-03-28 10:32:41,182 - org.apache.http.wire -DEBUG - http-outgoing-6 << "Content-Length:102[\r][\n]"
+2018-03-28 10:32:41,182 - org.apache.http.wire -DEBUG - http-outgoing-6 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-03-28 10:32:41,183 - org.apache.http.wire -DEBUG - http-outgoing-6 << "Connection:close[\r][\n]"
+2018-03-28 10:32:41,183 - org.apache.http.wire -DEBUG - http-outgoing-6 << "[\r][\n]"
+2018-03-28 10:32:41,183 - org.apache.http.wire -DEBUG - http-outgoing-6 << "{"sessionId":"677052dd9379b1d824723c53b31cb6f0","status":0,"value":{"ELEMENT":"0.5618250286348838-1"}}"
+2018-03-28 10:32:41,183 - org.apache.http.headers -DEBUG - http-outgoing-6 << HTTP/1.1 200 OK
+2018-03-28 10:32:41,183 - org.apache.http.headers -DEBUG - http-outgoing-6 << Content-Length:102
+2018-03-28 10:32:41,183 - org.apache.http.headers -DEBUG - http-outgoing-6 << Content-Type:application/json; charset=utf-8
+2018-03-28 10:32:41,183 - org.apache.http.headers -DEBUG - http-outgoing-6 << Connection:close
+2018-03-28 10:32:41,183 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-6: Shutdown connection
+2018-03-28 10:32:41,183 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:41,183 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-6: Close connection
+2018-03-28 10:32:41,184 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 6][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:41,695 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:41,696 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:41,696 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:41,696 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 7][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:41,696 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:41,696 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:41,696 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connection established 127.0.0.1:53673<->127.0.0.1:20472
+2018-03-28 10:32:41,697 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request POST /session/677052dd9379b1d824723c53b31cb6f0/element HTTP/1.1
+2018-03-28 10:32:41,697 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2018-03-28 10:32:41,697 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2018-03-28 10:32:41,697 - org.apache.http.headers -DEBUG - http-outgoing-7 >> POST /session/677052dd9379b1d824723c53b31cb6f0/element HTTP/1.1
+2018-03-28 10:32:41,697 - org.apache.http.headers -DEBUG - http-outgoing-7 >> Content-Type: application/json; charset=utf-8
+2018-03-28 10:32:41,697 - org.apache.http.headers -DEBUG - http-outgoing-7 >> Content-Length: 33
+2018-03-28 10:32:41,697 - org.apache.http.headers -DEBUG - http-outgoing-7 >> Host: localhost:20472
+2018-03-28 10:32:41,697 - org.apache.http.headers -DEBUG - http-outgoing-7 >> Connection: Keep-Alive
+2018-03-28 10:32:41,697 - org.apache.http.headers -DEBUG - http-outgoing-7 >> User-Agent: Apache-HttpClient/4.3.6 (java 1.5)
+2018-03-28 10:32:41,697 - org.apache.http.headers -DEBUG - http-outgoing-7 >> Accept-Encoding: gzip,deflate
+2018-03-28 10:32:41,697 - org.apache.http.wire -DEBUG - http-outgoing-7 >> "POST /session/677052dd9379b1d824723c53b31cb6f0/element HTTP/1.1[\r][\n]"
+2018-03-28 10:32:41,697 - org.apache.http.wire -DEBUG - http-outgoing-7 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-03-28 10:32:41,697 - org.apache.http.wire -DEBUG - http-outgoing-7 >> "Content-Length: 33[\r][\n]"
+2018-03-28 10:32:41,697 - org.apache.http.wire -DEBUG - http-outgoing-7 >> "Host: localhost:20472[\r][\n]"
+2018-03-28 10:32:41,697 - org.apache.http.wire -DEBUG - http-outgoing-7 >> "Connection: Keep-Alive[\r][\n]"
+2018-03-28 10:32:41,697 - org.apache.http.wire -DEBUG - http-outgoing-7 >> "User-Agent: Apache-HttpClient/4.3.6 (java 1.5)[\r][\n]"
+2018-03-28 10:32:41,697 - org.apache.http.wire -DEBUG - http-outgoing-7 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-03-28 10:32:41,697 - org.apache.http.wire -DEBUG - http-outgoing-7 >> "[\r][\n]"
+2018-03-28 10:32:41,697 - org.apache.http.wire -DEBUG - http-outgoing-7 >> "{"using":"id","value":"username"}"
+2018-03-28 10:32:41,698 - org.apache.http.wire -DEBUG - http-outgoing-7 << "HTTP/1.1 200 OK[\r][\n]"
+2018-03-28 10:32:41,698 - org.apache.http.wire -DEBUG - http-outgoing-7 << "Content-Length:289[\r][\n]"
+2018-03-28 10:32:41,698 - org.apache.http.wire -DEBUG - http-outgoing-7 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-03-28 10:32:41,698 - org.apache.http.wire -DEBUG - http-outgoing-7 << "Connection:close[\r][\n]"
+2018-03-28 10:32:41,698 - org.apache.http.wire -DEBUG - http-outgoing-7 << "[\r][\n]"
+2018-03-28 10:32:41,698 - org.apache.http.wire -DEBUG - http-outgoing-7 << "{"sessionId":"677052dd9379b1d824723c53b31cb6f0","status":13,"value":{"message":"unknown error: missing or invalid 'entry.level'\n  (Session info: chrome=65.0.3325.181)\n  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Mac OS X 10.10.5 x86_64)"}}"
+2018-03-28 10:32:41,699 - org.apache.http.headers -DEBUG - http-outgoing-7 << HTTP/1.1 200 OK
+2018-03-28 10:32:41,699 - org.apache.http.headers -DEBUG - http-outgoing-7 << Content-Length:289
+2018-03-28 10:32:41,699 - org.apache.http.headers -DEBUG - http-outgoing-7 << Content-Type:application/json; charset=utf-8
+2018-03-28 10:32:41,699 - org.apache.http.headers -DEBUG - http-outgoing-7 << Connection:close
+2018-03-28 10:32:41,699 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-7: Shutdown connection
+2018-03-28 10:32:41,699 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:41,699 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-7: Close connection
+2018-03-28 10:32:41,699 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 7][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:41,725 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:41,725 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:41,726 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:41,726 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 8][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:41,726 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:41,726 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:41,726 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connection established 127.0.0.1:53674<->127.0.0.1:20472
+2018-03-28 10:32:41,727 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Executing request GET /session/677052dd9379b1d824723c53b31cb6f0/alert_text HTTP/1.1
+2018-03-28 10:32:41,727 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Target auth state: UNCHALLENGED
+2018-03-28 10:32:41,727 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Proxy auth state: UNCHALLENGED
+2018-03-28 10:32:41,727 - org.apache.http.headers -DEBUG - http-outgoing-8 >> GET /session/677052dd9379b1d824723c53b31cb6f0/alert_text HTTP/1.1
+2018-03-28 10:32:41,727 - org.apache.http.headers -DEBUG - http-outgoing-8 >> Cache-Control: no-cache
+2018-03-28 10:32:41,727 - org.apache.http.headers -DEBUG - http-outgoing-8 >> Host: localhost:20472
+2018-03-28 10:32:41,727 - org.apache.http.headers -DEBUG - http-outgoing-8 >> Connection: Keep-Alive
+2018-03-28 10:32:41,727 - org.apache.http.headers -DEBUG - http-outgoing-8 >> User-Agent: Apache-HttpClient/4.3.6 (java 1.5)
+2018-03-28 10:32:41,727 - org.apache.http.headers -DEBUG - http-outgoing-8 >> Accept-Encoding: gzip,deflate
+2018-03-28 10:32:41,727 - org.apache.http.wire -DEBUG - http-outgoing-8 >> "GET /session/677052dd9379b1d824723c53b31cb6f0/alert_text HTTP/1.1[\r][\n]"
+2018-03-28 10:32:41,727 - org.apache.http.wire -DEBUG - http-outgoing-8 >> "Cache-Control: no-cache[\r][\n]"
+2018-03-28 10:32:41,727 - org.apache.http.wire -DEBUG - http-outgoing-8 >> "Host: localhost:20472[\r][\n]"
+2018-03-28 10:32:41,727 - org.apache.http.wire -DEBUG - http-outgoing-8 >> "Connection: Keep-Alive[\r][\n]"
+2018-03-28 10:32:41,727 - org.apache.http.wire -DEBUG - http-outgoing-8 >> "User-Agent: Apache-HttpClient/4.3.6 (java 1.5)[\r][\n]"
+2018-03-28 10:32:41,727 - org.apache.http.wire -DEBUG - http-outgoing-8 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-03-28 10:32:41,727 - org.apache.http.wire -DEBUG - http-outgoing-8 >> "[\r][\n]"
+2018-03-28 10:32:43,107 - org.apache.http.wire -DEBUG - http-outgoing-8 << "end of stream"
+2018-03-28 10:32:43,107 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-8: Close connection
+2018-03-28 10:32:43,108 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-8: Shutdown connection
+2018-03-28 10:32:43,109 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,109 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-8: Close connection
+2018-03-28 10:32:43,109 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 8][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,112 - org.apache.http.impl.execchain.RetryExec -INFO - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:20472: The target server failed to respond
+2018-03-28 10:32:43,113 - org.apache.http.impl.execchain.RetryExec -DEBUG - The target server failed to respond
+org.apache.http.NoHttpResponseException: The target server failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:143)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:153)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:254)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:139)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:87)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1020)
+	at org.openqa.selenium.support.ui.ExpectedConditions$28.apply(ExpectedConditions.java:809)
+	at org.openqa.selenium.support.ui.ExpectedConditions$28.apply(ExpectedConditions.java:805)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at com.mplatform.framework.base.HTMLFunctions.TakeScreenshot(HTMLFunctions.java:186)
+	at com.mplatform.framework.base.HTMLFunctions.ReportPassFail(HTMLFunctions.java:340)
+	at com.mplatform.framework.base.Utils.clickObject(Utils.java:346)
+	at com.mplatform.framework.controller.minsights.MI_Login.login(MI_Login.java:30)
+	at com.mplatform.test.minsights.FirstDemoTest.createNewAdvertiser(FirstDemoTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2018-03-28 10:32:43,116 - org.apache.http.impl.execchain.RetryExec -INFO - Retrying request to {}->http://localhost:20472
+2018-03-28 10:32:43,117 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,117 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,117 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,117 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 9][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,117 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,117 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,118 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,118 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,120 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-9: Shutdown connection
+2018-03-28 10:32:43,121 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,121 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-9: Close connection
+2018-03-28 10:32:43,121 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 9][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,126 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,126 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,126 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,127 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 10][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,127 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,127 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,128 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,128 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,129 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-10: Shutdown connection
+2018-03-28 10:32:43,129 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,129 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-10: Close connection
+2018-03-28 10:32:43,129 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 10][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,132 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,132 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,132 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,132 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 11][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,133 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,133 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,133 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,133 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,134 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-11: Shutdown connection
+2018-03-28 10:32:43,134 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,134 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-11: Close connection
+2018-03-28 10:32:43,134 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 11][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,138 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,139 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,139 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,139 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 12][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,139 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,139 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,139 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,140 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,140 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-12: Shutdown connection
+2018-03-28 10:32:43,140 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,140 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-12: Close connection
+2018-03-28 10:32:43,141 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 12][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,141 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,142 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,142 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,142 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 13][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,142 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,142 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,143 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,143 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,143 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-13: Shutdown connection
+2018-03-28 10:32:43,143 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,143 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-13: Close connection
+2018-03-28 10:32:43,143 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 13][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,145 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,146 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,146 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,146 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 14][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,146 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,146 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,146 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,147 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,147 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-14: Shutdown connection
+2018-03-28 10:32:43,147 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,147 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-14: Close connection
+2018-03-28 10:32:43,147 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 14][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,150 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,150 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,150 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,150 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 15][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,151 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,151 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,151 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,151 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,152 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-15: Shutdown connection
+2018-03-28 10:32:43,152 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,152 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-15: Close connection
+2018-03-28 10:32:43,152 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 15][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,153 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,153 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,154 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,154 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 16][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,154 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,154 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,154 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,155 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,155 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-16: Shutdown connection
+2018-03-28 10:32:43,155 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,155 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-16: Close connection
+2018-03-28 10:32:43,155 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 16][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,157 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,158 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,158 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,158 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 17][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,158 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,158 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,159 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,159 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,160 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-17: Shutdown connection
+2018-03-28 10:32:43,160 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,160 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-17: Close connection
+2018-03-28 10:32:43,160 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 17][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,166 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,166 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,166 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,166 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 18][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,166 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,166 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,168 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,169 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,170 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-18: Shutdown connection
+2018-03-28 10:32:43,170 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,170 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-18: Close connection
+2018-03-28 10:32:43,170 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 18][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,171 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,172 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,172 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,172 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 19][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,172 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,172 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,177 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,179 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,181 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-19: Shutdown connection
+2018-03-28 10:32:43,181 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,181 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-19: Close connection
+2018-03-28 10:32:43,181 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 19][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,187 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,187 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,187 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,187 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 20][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,187 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,188 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,189 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,190 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,191 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-20: Shutdown connection
+2018-03-28 10:32:43,191 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,191 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-20: Close connection
+2018-03-28 10:32:43,191 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 20][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,200 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,200 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,200 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,200 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 21][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,201 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,201 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,201 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,201 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,202 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-21: Shutdown connection
+2018-03-28 10:32:43,202 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,202 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-21: Close connection
+2018-03-28 10:32:43,202 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 21][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,205 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,205 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,205 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,206 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 22][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,206 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,206 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,208 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,210 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,210 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-22: Shutdown connection
+2018-03-28 10:32:43,210 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,210 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-22: Close connection
+2018-03-28 10:32:43,210 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 22][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,215 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,216 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,216 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,216 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 23][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,216 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,216 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,216 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,216 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,217 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-23: Shutdown connection
+2018-03-28 10:32:43,217 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,217 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-23: Close connection
+2018-03-28 10:32:43,217 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 23][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,228 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,228 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,228 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,229 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 24][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,229 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,229 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,230 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,230 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,230 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-24: Shutdown connection
+2018-03-28 10:32:43,230 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,230 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-24: Close connection
+2018-03-28 10:32:43,230 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 24][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,234 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,234 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,234 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,234 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 25][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,235 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,235 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,236 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,236 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,236 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-25: Shutdown connection
+2018-03-28 10:32:43,236 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,236 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-25: Close connection
+2018-03-28 10:32:43,236 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 25][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,238 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,239 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,239 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,239 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 26][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,239 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,239 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,240 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,240 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,240 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-26: Shutdown connection
+2018-03-28 10:32:43,240 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,240 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-26: Close connection
+2018-03-28 10:32:43,240 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 26][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,247 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,247 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,247 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,247 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 27][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,247 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,248 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,248 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,248 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,249 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-27: Shutdown connection
+2018-03-28 10:32:43,249 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,249 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-27: Close connection
+2018-03-28 10:32:43,249 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 27][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,250 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,250 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,250 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,250 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 28][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,250 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,251 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,251 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,251 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,252 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-28: Shutdown connection
+2018-03-28 10:32:43,252 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,252 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-28: Close connection
+2018-03-28 10:32:43,252 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 28][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,437 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,437 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,437 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,438 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 29][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,438 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,439 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,439 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,440 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,440 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-29: Shutdown connection
+2018-03-28 10:32:43,440 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,440 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-29: Close connection
+2018-03-28 10:32:43,440 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 29][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,467 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,467 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,467 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,467 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 30][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,467 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,468 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,472 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,472 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,474 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-30: Shutdown connection
+2018-03-28 10:32:43,474 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,475 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-30: Close connection
+2018-03-28 10:32:43,475 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 30][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,476 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,476 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,476 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,476 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 31][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,476 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,477 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,477 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,477 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,478 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-31: Shutdown connection
+2018-03-28 10:32:43,478 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,478 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-31: Close connection
+2018-03-28 10:32:43,478 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 31][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,481 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,482 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,482 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,482 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 32][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,482 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,483 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,484 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,484 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,485 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-32: Shutdown connection
+2018-03-28 10:32:43,485 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,485 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-32: Close connection
+2018-03-28 10:32:43,485 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 32][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,490 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,490 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,490 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,490 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 33][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,490 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,490 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,491 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,491 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,491 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-33: Shutdown connection
+2018-03-28 10:32:43,491 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,492 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-33: Close connection
+2018-03-28 10:32:43,492 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 33][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,493 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,493 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,493 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,493 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 34][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,493 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,494 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,494 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,494 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,496 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-34: Shutdown connection
+2018-03-28 10:32:43,496 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,496 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-34: Close connection
+2018-03-28 10:32:43,496 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 34][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,500 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,501 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,501 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,501 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 35][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,501 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,501 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,502 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,502 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,503 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-35: Shutdown connection
+2018-03-28 10:32:43,503 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,503 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-35: Close connection
+2018-03-28 10:32:43,503 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 35][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,535 - org.apache.http.client.protocol.RequestAddCookies -DEBUG - CookieSpec selected: best-match
+2018-03-28 10:32:43,535 - org.apache.http.client.protocol.RequestAuthCache -DEBUG - Auth cache not set in the context
+2018-03-28 10:32:43,535 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection request: [route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-03-28 10:32:43,535 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection leased: [id: 36][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-03-28 10:32:43,535 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Opening connection {}->http://localhost:20472
+2018-03-28 10:32:43,535 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/127.0.0.1:20472
+2018-03-28 10:32:43,536 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connect to localhost/127.0.0.1:20472 timed out. Connection will be retried using another IP address
+2018-03-28 10:32:43,536 - org.apache.http.impl.conn.HttpClientConnectionOperator -DEBUG - Connecting to localhost/0:0:0:0:0:0:0:1:20472
+2018-03-28 10:32:43,536 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-36: Shutdown connection
+2018-03-28 10:32:43,536 - org.apache.http.impl.execchain.MainClientExec -DEBUG - Connection discarded
+2018-03-28 10:32:43,536 - org.apache.http.impl.conn.DefaultManagedHttpClientConnection -DEBUG - http-outgoing-36: Close connection
+2018-03-28 10:32:43,536 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection released: [id: 36][route: {}->http://localhost:20472][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]

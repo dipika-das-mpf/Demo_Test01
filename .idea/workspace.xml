@@ -2,89 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45c4966e-e1f0-4318-aff3-23003375ef6c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/AppConstant.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/CommonFunctions.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/CustomIEDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/GlobalPaths.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/HTMLFunctions.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/Helper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/MPlatformConfigurationConstants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/MPlatformPropertiesConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/MailHTMLReports.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/PropertyManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/ScriptBase$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/ScriptBase$BROWSER.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/ScriptBase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/Utils$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/Utils$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/Utils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/ZipUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/initializer/CouchbaseClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/initializer/DbClients.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/initializer/HttpClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/initializer/Initializer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/minsights/JSON.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/minsights/ObjectConversion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/minsights/api/LoginOutputVO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/minsights/api/LoginRequestVO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/minsights/http_utility/BuildServiceURL.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/minsights/http_utility/HttpUtility.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/minsights/http_utility/RequestTypes$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/base/minsights/http_utility/RequestTypes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/controller/ApplicationController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/controller/MI_ApplicationController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/controller/manalytics/MA_61SummaryReportPageController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/controller/manalytics/MA_AnalyzePageController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/controller/manalytics/MA_LoginPageController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/controller/manalytics/MA_ManageAgenciesPageController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/controller/manalytics/MA_MyReportsIndexPageController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/controller/minsights/MI_CommonController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/controller/minsights/MI_CreateActivityController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/controller/minsights/MI_CreateAdvertiserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/controller/minsights/MI_CreateCampaignController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/controller/minsights/MI_CreateCustomSegmentModelController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/controller/minsights/MI_CreateDataPartnerController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/controller/minsights/MI_CreateDataPartnerModelController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/controller/minsights/MI_CreateLiveDataSourceController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/controller/minsights/MI_CreateLookLikeModelController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/controller/minsights/MI_EditAdvertiserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/controller/minsights/MI_EditDataPartnerController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/controller/minsights/MI_EditLiveDataSourceController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/controller/minsights/MI_Login.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/controller/minsights/MI_LoginPageController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/data/manalytics/MA_AnalyzePageData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/data/manalytics/MA_LoginPageData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/data/manalytics/MA_ManageAgenciesPageData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/data/manalytics/MA_MyReportsIndexPageData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/data/minsights/MI_DataVO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/data/minsights/MI_LoginPageData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/data/minsights/MI_UserCredentialsVO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/model/ModelBase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/model/manalytics/MA_61SummaryReportPageModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/model/manalytics/MA_AnalyzePageModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/model/manalytics/MA_LoginPageModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/model/manalytics/MA_ManageAgenciesPageModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/model/manalytics/MA_MyReportsIndexPageModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/model/minsights/MI_ActivityPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/model/minsights/MI_AdvertiserPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/model/minsights/MI_Audience_Menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/model/minsights/MI_CampaignPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/model/minsights/MI_CustomSegmentModelPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/model/minsights/MI_DataPartnerModelPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/model/minsights/MI_DataPartnerPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/model/minsights/MI_LiveDataSourcePage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/model/minsights/MI_LoginPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/model/minsights/MI_LoginPageModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/model/minsights/MI_LookLikeModelPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/model/minsights/MI_MainHeader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mplatform/framework/model/minsights/MI_Setup_and_Admin_Menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/mplatform/test/manalytics/CreateReportTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/mplatform/test/manalytics/Manage_Agencies.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/mplatform/test/minsights/DemoTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/mplatform/test/minsights/FirstDemoTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/mplatform/test/minsights/FirstDemoTestVaibhav.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/mplatform/test/minsights/ModelDemoTestDipika.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/selenium-server-standalone-2.45.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/selenium-server-standalone-3.11.0.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/chromedriver" afterPath="$PROJECT_DIR$/Lib/chromedriver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib/mac/chromedriver" afterPath="$PROJECT_DIR$/Lib/mac/chromedriver" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Config/functional.log" afterPath="$PROJECT_DIR$/Config/functional.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Config/performance.log" afterPath="$PROJECT_DIR$/Config/performance.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FirstDemoTest.xml" afterPath="$PROJECT_DIR$/FirstDemoTest.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,33 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FirstDemoTest.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FirstDemoTest.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FirstDemoTest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="81" column="36" lean-forward="false" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
-              <folding>
-                <element signature="n#dependency#13;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QA1_CONFIG.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Config/minsights/QA1_CONFIG.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="135">
+              <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -155,7 +58,7 @@
       <file leaf-file-name="ScriptBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mplatform/framework/base/ScriptBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3720">
+            <state relative-caret-position="4215">
               <caret line="281" column="61" lean-forward="false" selection-start-line="281" selection-start-column="61" selection-end-line="281" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -195,9 +98,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FirstDemoTest.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mplatform/framework/base/ScriptBase.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/FirstDemoTest.xml" />
       </list>
     </option>
   </component>
@@ -266,7 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,80 +196,25 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Test022" type="cbb8eebc:String" user="Test022" />
+              <item name="Demo_Test01" type="cbb8eebc:String" user="Demo_Test01" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Test022" type="cbb8eebc:String" user="Test022" />
-              <item name="Config" type="cbb8eebc:String" user="Config" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Test022" type="cbb8eebc:String" user="Test022" />
-              <item name="Config" type="cbb8eebc:String" user="Config" />
-              <item name="minsights" type="cbb8eebc:String" user="minsights" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Test022" type="cbb8eebc:String" user="Test022" />
-              <item name="Results" type="cbb8eebc:String" user="Results" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Test022" type="cbb8eebc:String" user="Test022" />
-              <item name="Results" type="cbb8eebc:String" user="Results" />
-              <item name="03-27-2018" type="cbb8eebc:String" user="03-27-2018" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Test022" type="cbb8eebc:String" user="Test022" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Test022" type="cbb8eebc:String" user="Test022" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main/java" type="cbb8eebc:String" user="main/java" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Test022" type="cbb8eebc:String" user="Test022" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main/java" type="cbb8eebc:String" user="main/java" />
-              <item name="com/mplatform/framework" type="cbb8eebc:String" user="com/mplatform/framework" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Test022" type="cbb8eebc:String" user="Test022" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="test/java" type="cbb8eebc:String" user="test/java" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Test022" type="cbb8eebc:String" user="Test022" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="test/java" type="cbb8eebc:String" user="test/java" />
-              <item name="com/mplatform/test" type="cbb8eebc:String" user="com/mplatform/test" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Test022" type="cbb8eebc:String" user="Test022" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="test/java" type="cbb8eebc:String" user="test/java" />
-              <item name="com/mplatform/test" type="cbb8eebc:String" user="com/mplatform/test" />
-              <item name="minsights" type="cbb8eebc:String" user="minsights" />
+              <item name="Demo_Test01" type="cbb8eebc:String" user="Demo_Test01" />
+              <item name="Lib" type="cbb8eebc:String" user="Lib" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -515,12 +362,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unnamed - 2018.03.27 at 22h 32m 35s.xml">
-      <configuration name="Unnamed" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Unnamed - 2018.03.27 at 22h 34m 11s.xml">
-      <configuration name="Unnamed" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Unnamed - 2018.03.27 at 22h 52m 56s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
@@ -545,6 +386,12 @@
     <history-entry file="Unnamed - 2018.03.27 at 23h 14m 59s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Unnamed - 2018.03.28 at 10h 28m 29s.xml">
+      <configuration name="Unnamed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Unnamed - 2018.03.28 at 10h 29m 11s.xml">
+      <configuration name="Unnamed" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -560,17 +407,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299566" sideWeight="0.49427754" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299566" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299566" sideWeight="0.57796854" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299566" sideWeight="0.57796854" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299566" sideWeight="0.48569384" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34442836" sideWeight="0.47711015" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34442836" sideWeight="0.47711015" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20958512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31688127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven-2 Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -584,7 +432,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299566" sideWeight="0.49713877" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -794,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1230">
           <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -947,14 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-server/3.4.0/selenium-server-3.4.0-sources.jar!/org/openqa/selenium/remote/server/SeleniumServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2895">
-          <caret line="234" column="61" lean-forward="false" selection-start-line="234" selection-start-column="61" selection-end-line="234" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.10/testng-6.9.10-sources.jar!/org/testng/SuiteRunnerWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -973,14 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Config/minsights/QA1_CONFIG.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.4.0/selenium-chrome-driver-3.4.0-sources.jar!/org/openqa/selenium/chrome/ChromeOptions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
@@ -989,17 +819,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FirstDemoTest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mplatform/framework/base/ScriptBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3720">
+        <state relative-caret-position="4215">
           <caret line="281" column="61" lean-forward="false" selection-start-line="281" selection-start-column="61" selection-end-line="281" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1009,11 +831,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
+        <state relative-caret-position="1215">
           <caret line="81" column="36" lean-forward="false" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
           <folding>
             <element signature="n#dependency#13;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config/minsights/QA1_CONFIG.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-server/3.4.0/selenium-server-3.4.0-sources.jar!/org/openqa/selenium/remote/server/SeleniumServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2895">
+          <caret line="234" column="61" lean-forward="false" selection-start-line="234" selection-start-column="61" selection-end-line="234" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstDemoTest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>

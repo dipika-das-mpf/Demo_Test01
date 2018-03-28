@@ -273,9 +273,18 @@ public class ScriptBase
 						prefs.put("download.default_directory", AppConstant.DownloadedFiles);
 						DesiredCapabilities caps = DesiredCapabilities.chrome();
 						ChromeOptions options = new ChromeOptions();
-						options.addArguments("--disable-infobars");
+						//options.addArguments("--disable-infobars");
 						//options.addArguments("-incognito");
 						//options.addArguments("start-maximized");
+
+
+						//options.addArguments("--verbose");
+						options.addArguments("--whitelisted-ips=''");
+						//options.addArguments("--proxy-server=10.90.101.183:8080");
+git
+						//WebDriver driver = new ChromeDriver(options);
+						//driver.get("http://10.90.101.183:8080/");
+
 
 						options.setExperimentalOption("prefs", prefs);
 						caps.setCapability(ChromeOptions.CAPABILITY, options);
@@ -283,7 +292,6 @@ public class ScriptBase
 						localDriver.manage().window().maximize();
 						options.addArguments("--start-maximized");
 						break;
-
 
 					}
 					case ie:

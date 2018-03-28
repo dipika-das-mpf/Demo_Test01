@@ -278,18 +278,20 @@ public class ScriptBase
 						//options.addArguments("start-maximized");
 
 
-						//options.addArguments("--verbose");
-						options.addArguments("--whitelisted-ips='10.90.101.183'");
+						options.addArguments("--verbose");
+						options.addArguments("--whitelisted-ips=''");
 						//options.addArguments("--proxy-server=10.90.101.183:8080");
 
 						//WebDriver driver = new ChromeDriver(options);
-						//driver.get("http://10.90.101.183:8080/");
+
 
 
 						options.setExperimentalOption("prefs", prefs);
 						caps.setCapability(ChromeOptions.CAPABILITY, options);
-						localDriver = new ChromeDriver(caps);
-						localDriver.manage().window().maximize();
+						WebDriver driver = new ChromeDriver(options);
+						driver.get("http://10.90.101.183:8080/");
+						//localDriver = new ChromeDriver(caps);
+						//localDriver.manage().window().maximize();
 						options.addArguments("--start-maximized");
 						break;
 

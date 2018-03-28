@@ -192,14 +192,6 @@ public class ScriptBase
 			cap.setCapability("name", "Remote File Upload using Selenium 2's FileDetectors");
 			localDriver = new RemoteWebDriver(new URL("http://"+userName+":"+key+"@ondemand.saucelabs.com:80/wd/hub"), cap);
 			((RemoteWebDriver) localDriver).setFileDetector(new LocalFileDetector());
-
-
-			ChromeOptions chromeOptions = new ChromeOptions();
-			chromeOptions.addArguments("--verbose");
-			chromeOptions.addArguments("--whitelisted-ips=''");
-			chromeOptions.addArguments("--proxy-server=93.180.7.246:8080");
-
-
 		}
 		else if(useCloudEnv==false)
 		{

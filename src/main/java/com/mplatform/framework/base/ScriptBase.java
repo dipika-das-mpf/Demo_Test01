@@ -273,15 +273,15 @@ public class ScriptBase
 						prefs.put("download.default_directory", AppConstant.DownloadedFiles);
 						DesiredCapabilities caps = DesiredCapabilities.chrome();
 						ChromeOptions options = new ChromeOptions();
-						//options.addArguments("--disable-infobars");
+						options.addArguments("--disable-infobars");
 						//options.addArguments("-incognito");
 						//options.addArguments("start-maximized");
 
 
 						//options.addArguments("--verbose");
-						options.addArguments("--whitelisted-ips=''");
+						options.addArguments("--whitelisted-ips='10.90.101.183'");
 						//options.addArguments("--proxy-server=10.90.101.183:8080");
-git
+
 						//WebDriver driver = new ChromeDriver(options);
 						//driver.get("http://10.90.101.183:8080/");
 
